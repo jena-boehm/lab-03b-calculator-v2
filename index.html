@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;600&display=swap" rel="stylesheet">
+    <title>Calculator</title>
 </head>
 
 <body>
@@ -20,38 +21,42 @@
     </header>
     <main>
         <section class="main-section">
-            <div class="add">
-                <input id="add-input-1" type ="number" /> 
-                <span> + </span> 
-                <input id="add-input-2" type ="number" /> 
-                <button id="add-button">Add</button> 
-                <span> = </span>
-                <span id="add-span"></span>
-            </div>
-            <div class="subtract">
-                <input id="subtract-input-1" type ="number" /> 
-                <span> - </span> 
-                <input id="subtract-input-2" type ="number" /> 
-                <button id="subtract-button">Subtract</button> 
-                <span> = </span>
-                <span id="subtract-span"></span>
-            </div>
-            <div class="multiply">
-                <input id="multiply-input-1" type ="number" /> 
-                <span> * </span> 
-                <input id="multiply-input-2" type ="number" /> 
-                <button id="multiply-button">Multiply</button> 
-                <span> = </span>
-                <span id="multiply-span"></span>
-            </div>
-            <div class="divide">
-                <input id="divide-input-1" type ="number" /> 
-                <span> / </span> 
-                <input id="divide-input-2" type ="number" /> 
-                <button id="divide-button">Divide</button> 
-                <span> = </span>
-                <span id="divide-span"></span>
-            </div>
+            <section class ="first-row">
+                <div class="add">
+                    <input id="add-input-1" type ="number" /> 
+                    <div class="symbol"> + </div> 
+                    <input id="add-input-2" type ="number" /> <br>
+                    <button id="add-button">Add</button> <br>
+                    <span class="answer"> Answer: </span>
+                    <span id="add-span"></span>
+                </div>
+                <div class="subtract">
+                    <input id="subtract-input-1" type ="number" /> 
+                    <div class="symbol"> - </div> 
+                    <input id="subtract-input-2" type ="number" /> <br>
+                    <button id="subtract-button">Subtract</button> <br>
+                    <span class="answer"> Answer: </span>
+                    <span id="subtract-span"></span>
+                </div>
+            </section>
+            <section class ="second-row">
+                <div class="multiply">
+                    <input id="multiply-input-1" type ="number" /> 
+                    <div class="symbol"> * </div> 
+                    <input id="multiply-input-2" type ="number" /> <br>
+                    <button id="multiply-button">Multiply</button> <br>
+                    <span class="answer"> Answer: </span>
+                    <span id="multiply-span"></span>
+                </div>
+                <div class="divide">
+                    <input id="divide-input-1" type ="number" /> 
+                    <div class="symbol"> / </div> 
+                    <input id="divide-input-2" type ="number" /> <br>
+                    <button id="divide-button">Divide</button> <br>
+                    <span class="answer"> Answer: </span>
+                    <span id="divide-span"></span>
+                </div>
+            </section>
         </section>
     </main>
     <footer>
